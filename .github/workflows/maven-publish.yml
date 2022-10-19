@@ -31,4 +31,4 @@ jobs:
     - name: Publish to GitHub Packages Apache Maven
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
-        GITHUB_TOKEN: ${{ github.token }}
+        GITHUB_TOKEN: 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
