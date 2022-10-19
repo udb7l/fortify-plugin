@@ -46,6 +46,15 @@
             <url>https://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
+    
+    <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/udb7l/fortify</url>
+   </repository>
+</distributionManagement>
+
 
     <scm>
         <connection>scm:git:git@github.com:jenkinsci/fortify-plugin.git</connection>
