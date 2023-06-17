@@ -75,7 +75,7 @@ public class PathUtils {
 				File folder = new File(s);
 				if (folder.isDirectory()) {
 					File file = new File(folder, filename);
-					if (file.isFile()) {
+					if (!file.isDirectory()) {
 						return file;
 					}
 				}

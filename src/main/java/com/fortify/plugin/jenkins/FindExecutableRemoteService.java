@@ -59,7 +59,7 @@ public class FindExecutableRemoteService implements FilePath.FileCallable<String
 			}
 			String s = home + "bin" + File.separator + filename;
 			File f = new File(s);
-			if (f.isFile()) {
+			if (!f.isDirectory()) {
 				return s;
 			}
 		}
